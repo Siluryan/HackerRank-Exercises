@@ -9,7 +9,7 @@ if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
 
-    A = list(arr)
+    A = list(set(arr))
     M = max(A)
     A.remove(M)
 
