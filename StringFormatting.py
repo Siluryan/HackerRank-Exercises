@@ -6,7 +6,7 @@ Given an integer, n, print the following values for each integer i from 1 to n :
 -> Binary
 '''
 
-def print_formatted(number):
+def print_formatted(n):
     # your code goes here
     for i in range(n):
         i += 1
