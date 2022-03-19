@@ -25,5 +25,5 @@ k = int(k)
 pm = list(permutations(s,k))
 
 for i in pm:
-    it_pm = ''.join([str(it) for it in i])
-    print(it_pm)
+    new_i = ''.join(i)
+    print(new_i)
