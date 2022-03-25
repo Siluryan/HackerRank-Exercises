@@ -18,7 +18,7 @@ for i in range(m):
   
 # No defaultdict() version:
 
-n_size, m_size = list(map(int,input().split()))
+n_size, m_size = map(int,input().split()))
 a = list()
 b = list()
 result = list()
