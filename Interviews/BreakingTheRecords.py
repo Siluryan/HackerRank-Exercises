@@ -24,12 +24,10 @@ def breakingRecords(n, scores):
     max_ref = scores[0]
     min_ref = scores[0]
    
-    for i in range(1,n):
-                  
+    for i in range(1,n):                  
         if scores[i] > max_ref:
             max_count += 1
-            max_ref = scores[i]
-           
+            max_ref = scores[i]           
         elif scores[i] < min_ref:
             min_count += 1
             min_ref = scores[i]   
