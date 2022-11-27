@@ -19,16 +19,14 @@ import sys
 #  3. INTEGER_ARRAY ar
 #
 
-def divisibleSumPairs(n, k, ar):
-    z = 1
+def divisibleSumPairs(n, k, ar):    
     count = 0
     for i in range(n-1):
         x = ar[i]        
         for u in range(i+1,n):
             y = ar[u]        
             if (x+y)%k == 0:                        
-                count +=1    
-        z += 1   
+                count +=1          
                 
     return(count)              
 
